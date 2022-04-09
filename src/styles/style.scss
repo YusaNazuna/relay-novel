@@ -1,0 +1,8 @@
+@import "./_reset.scss";
+@import "./_common.scss";
+
+#app {
+  min-height: 100vh;
+  background: #ddd;
+  position: relative;
+}
