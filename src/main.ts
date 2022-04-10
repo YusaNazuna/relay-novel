@@ -5,6 +5,7 @@ import router from "@/router";
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import firebaseConfig from "@/firebase.config";
+console.info(firebaseConfig);
 const firebaseApp = initializeApp(firebaseConfig);
 getAnalytics(firebaseApp);
 
